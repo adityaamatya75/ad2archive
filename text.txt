@@ -1,0 +1,28 @@
+to make new website: jekyll new ad2archive
+to view website :  bundle exec jekyll serve
+to view draft: jekyll serve --draft
+
+
+to intall new theme
+
+1. look for new themes for jekyll themes in internet
+
+rubygems.org
+
+2. edit gemfile by adding gem "nameofTheme"
+
+3. go into command and run bundle install 
+
+bundle install downloadall the repositries that are in gem file and yet not downloaded
+
+goto _config.yml and replace the theme name their.
+
+
+FOR PUBLISHING IN GITHUB
+
+git init 
+git checkout -b gh-pages  
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/adityaamatya75/ad2archive.git
+git push origin gh-pages  
